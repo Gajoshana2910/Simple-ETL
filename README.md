@@ -22,7 +22,6 @@ This project demonstrates a **basic ETL (Extract, Transform, Load) pipeline** us
 - `requirements.txt` → Python dependencies  
 - `.gitignore` → Ignore unnecessary files  
 - `README.md` → Project documentation  
-
 ---
 
 ## 🔧 Technologies Used  
@@ -32,7 +31,7 @@ This project demonstrates a **basic ETL (Extract, Transform, Load) pipeline** us
 
 ## 📜 Installation & Setup  
 
-### 1️⃣ Clone the Repository  
+1️⃣ Clone the Repository  
 ```
 git clone https://github.com/Gajoshana2910/Simple-ETL.git
 cd Simple-ETL
