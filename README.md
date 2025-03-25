@@ -8,16 +8,20 @@ This project demonstrates a **basic ETL (Extract, Transform, Load) pipeline** us
 - **Load**: Save the cleaned data into a new CSV file.  
 
 ---
+## 🏗️ Project Structure  
 
-## 📂 Project Structure  
-
-Simple-ETL/
-│── data/
-│   ├── data.csv               # Input dataset
-│── etl.py                     # ETL script
-│── README.md                  # Project documentation
-│── requirements.txt            # Dependencies
-│── .gitignore                  # Ignore unnecessary files
+**Folder Structure:**
+- `data/` → Contains input and output CSV files  
+  - `data.csv` → Raw dataset  
+  - `cleaned_data.csv` → Processed dataset  
+- `scripts/` → Contains ETL scripts  
+  - `extract.py` → Extract data from CSV  
+  - `transform.py` → Clean and process data  
+  - `load.py` → Save cleaned data to CSV  
+- `etl.py` → Main script to run the ETL pipeline  
+- `requirements.txt` → Python dependencies  
+- `.gitignore` → Ignore unnecessary files  
+- `README.md` → Project documentation  
 
 ---
 
@@ -29,23 +33,23 @@ Simple-ETL/
 ## 📜 Installation & Setup  
 
 ### 1️⃣ Clone the Repository  
-```sh
+
 git clone https://github.com/Gajoshana2910/Simple-ETL.git
+
 cd Simple-ETL
 
 2️⃣ Install Dependencies
-```sh
+
 pip install -r requirements.txt
 
 3️⃣ Run the ETL Script
-```sh
+
 python etl.py
 
 4️⃣ Check the Output
 
 The cleaned data will be saved in:
 
-```sh
 data/cleaned_data.csv
 
 📄 Sample Input (data/data.csv)
