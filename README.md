@@ -66,23 +66,23 @@ id,name,age,salary
 3,CHARLIE,32.5,70000.0  <-- Age filled with median (32.5)
 4,DAVID,40.0,80000.0
 ```
-🛠 How the ETL Works
+## 🛠 How the ETL Works
 
-1. Extract → Reads data.csv into a Pandas DataFrame.
-2. Transform → Cleans data by:
+🔹 Extract → Reads data.csv into a Pandas DataFrame.
+🔹 Transform → Cleans data by:
     - Filling missing age and salary values with the median.
     - Converting name values to uppercase.
-3. Load → Saves the cleaned data into a new CSV file.
+🔹 Load → Saves the cleaned data into a new CSV file.
 
-📌 Contributing
+## 📌 Contributing
 
 Want to improve this project? Feel free to fork, modify, and create a pull request!
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License - see the  
 👉 [LICENSE](https://github.com/Gajoshana2910/Simple-ETL/blob/main/LICENSE) file for details.  
 
-👨‍💻 Developed by
+## 👨‍💻 Developed by
 
 👉 [Gajalakshmi A K](https://github.com/Gajoshana2910)
