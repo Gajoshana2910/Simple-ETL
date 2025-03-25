@@ -29,19 +29,18 @@ This project demonstrates a **basic ETL (Extract, Transform, Load) pipeline** us
 - **Python** 🐍  
 - **Pandas** 📊  
 
----
+
 ## 📜 Installation & Setup  
 
 ### 1️⃣ Clone the Repository  
-
+---
 git clone https://github.com/Gajoshana2910/Simple-ETL.git
-
 cd Simple-ETL
-
+---
 2️⃣ Install Dependencies
-
+---
 pip install -r requirements.txt
-
+---
 3️⃣ Run the ETL Script
 
 python etl.py
@@ -79,7 +78,7 @@ Want to improve this project? Feel free to fork, modify, and create a pull reque
 📜 License
 
 This project is licensed under the MIT License - see the  
-👉 [LICENSE]() file for details.  
+👉 [LICENSE](https://github.com/Gajoshana2910/Simple-ETL/blob/main/LICENSE) file for details.  
 
 👨‍💻 Developed by
 
